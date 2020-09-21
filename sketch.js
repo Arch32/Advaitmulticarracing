@@ -12,11 +12,11 @@ var car1_image, car2_image, car3_image, car4_image;
 function preload() {
 
     car1_image = loadImage("/Advaitmulticarracing/images/car1.png");
-    car2_image = loadImage("../images/car2.png");
-    car3_image = loadImage("../images/car3.png");
-    car4_image = loadImage("../images/car4.png");
+    car2_image = loadImage("/Advaitmulticarracing/images/car2.png");
+    car3_image = loadImage("/Advaitmulticarracing/images/car3.png");
+    car4_image = loadImage("/Advaitmulticarracing/images/car4.png");
 
-    track = loadImage("../images/track.jpg");
+    track = loadImage("/Advaitmulticarracing/images/track.jpg");
 }
 
 function setup() {
